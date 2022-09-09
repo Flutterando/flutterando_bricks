@@ -1,5 +1,5 @@
-name: module
-description: A new brick created with the Mason CLI to create flutter modular modules easy.
+name: triple_brick
+description: A new brick created with the Mason CLI.
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -21,4 +21,4 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  - name
+  - triplestorename
