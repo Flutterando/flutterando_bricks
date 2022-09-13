@@ -1,0 +1,3 @@
+class {{servicename.pascalCase()}}Service {
+
+}
