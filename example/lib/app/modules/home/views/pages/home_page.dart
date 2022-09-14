@@ -5,6 +5,7 @@ import 'package:flutter_triple/flutter_triple.dart';
 import 'home_store.dart';
 
 class HomePage extends StatefulWidget {
+
   const HomePage({Key? key}) : super(key: key);
 
   @override
@@ -12,19 +13,21 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var store = Modular.get<HomeStore>();
+
+var store = Modular.get<HomeStore>();
+
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(title: const Text('HomePage')),
-      body: Center(
+      body:  Center(
         child: ScopedBuilder<HomeStore, Exception, int>(
           store: store,
           onLoading: (context) => const CircularProgressIndicator(),
           onError: (context, error) => Text(error.toString()),
           onState: (context, state) => Text(state.toString()),
         ),
-      ),
+      )
     );
   }
 }
