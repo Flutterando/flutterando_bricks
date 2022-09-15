@@ -1,3 +1,0 @@
-class {{repositoryname.pascalCase()}}Repository {
-
-}
