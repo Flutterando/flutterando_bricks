@@ -1,4 +1,4 @@
 abstract class I{{datasourcename.pascalCase()}}DataSource {  
   
-  Future<List<String>> getListData();
+  Future<List<String>> {{methodname.pascalCase()}}();
 }

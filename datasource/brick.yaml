@@ -22,3 +22,4 @@ environment:
 #  * a list of values (enums only)
 vars:
   - datasourcename
+  - methodname

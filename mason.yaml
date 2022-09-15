@@ -13,8 +13,6 @@ bricks:
     path: ./repository
   page_brick:
     path: ./page
-  mobx_brick:
-    path: ./mobx
   datasource_brick:
     path: ./datasource
   module:
