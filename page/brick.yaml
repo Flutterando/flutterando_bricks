@@ -22,3 +22,7 @@ environment:
 #  * a list of values (enums only)
 vars:
   - pagename
+  - iscubit
+  - isbloc
+  - istriple
+  - ismobx

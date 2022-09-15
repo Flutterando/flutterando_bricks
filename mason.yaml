@@ -1,6 +1,4 @@
 bricks:
-  bloc_brick:
-    path: ./bloc
   widget_brick:
     path: ./widget
   usecase_brick:
@@ -19,8 +17,6 @@ bricks:
     path: ./mobx
   datasource_brick:
     path: ./datasource
-  cubit_brick:
-    path: ./cubit
   module:
     path: ./module
 
