@@ -2,36 +2,36 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import '{{pagename.pascalCase()}}_cubit.dart';
+import '{{widgetname.pascalCase()}}_cubit.dart';
 
-class {{pagename.pascalCase()}}Page extends StatefulWidget {
+class {{widgetname.pascalCase()}}Page extends StatefulWidget {
   @override
-  _{{pagename.pascalCase()}}PageState createState() => _{{pagename.pascalCase()}}PageState();
+  _{{widgetname.pascalCase()}}PageState createState() => _{{widgetname.pascalCase()}}PageState();
 }
 
-class _{{pagename.pascalCase()}}PageState extends State<{{pagename.pascalCase()}}Page> {
-  final {{pagename.pascalCase()}}Cubit _{{pagename.pascalCase()}}Cubit = Modular.get();
+class _{{widgetname.pascalCase()}}PageState extends State<{{widgetname.pascalCase()}}Page> {
+  final {{widgetname.pascalCase()}}Cubit _{{widgetname.pascalCase()}}Cubit = Modular.get();
 
   @override
   void dispose() {
-    _{{pagename.pascalCase()}}Cubit.close();
+    _{{widgetname.pascalCase()}}Cubit.close();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("{{pagename.pascalCase()}}")),
+      appBar: AppBar(title: Text("{{widgetname.pascalCase()}}")),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           FloatingActionButton(
             child: Icon(Icons.remove),
-            onPressed: _{{pagename.pascalCase()}}Cubit.decrement,
+            onPressed: _{{widgetname.pascalCase()}}Cubit.decrement,
           ),
           FloatingActionButton(
             child: Icon(Icons.add),
-            onPressed: _{{pagename.pascalCase()}}Cubit.increment,
+            onPressed: _{{widgetname.pascalCase()}}Cubit.increment,
           ),
         ],
       ),
@@ -40,7 +40,7 @@ class _{{pagename.pascalCase()}}PageState extends State<{{pagename.pascalCase()}
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("Button Tapped:"),
-            BlocBuilder<{{pagename.pascalCase()}}Cubit, int>(
+            BlocBuilder<{{widgetname.pascalCase()}}Cubit, int>(
               bloc: _{{widgetname.pascalCase()}}Cubit,
               builder: (context, count) {
                 return Text(

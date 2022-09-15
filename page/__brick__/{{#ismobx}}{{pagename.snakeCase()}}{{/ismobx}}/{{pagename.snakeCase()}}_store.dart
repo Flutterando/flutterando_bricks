@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
 
-part '../../{{pagename.pascalCase()}}_store.g.dart';
+part '../../{{pagename.snakeCase()}}_store.g.dart';
 
 class {{pagename.pascalCase()}}Store = {{pagename.pascalCase()}}StoreBase with _${{pagename.pascalCase()}}Store;
 
