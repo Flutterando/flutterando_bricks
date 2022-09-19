@@ -19,18 +19,50 @@ mason make page_brick
 | `ismobx` | Boolean variable to indicate if the page will be type mobx or not | lib | `bool` |
 
 
-## Outputs 📦
+## Outputs for page type bloc 📦
 
 ```
 --project
 |   ├── lib
-│   │   ├── app
-│   │   │   ├── modules
-│   │   │   │   ├── usecasename
-│   │   │   │       ├── domain
-|   |   |   |           ├── usecases
-|   |   |   |               ├── usecasename_usecase.dart
-│   │   └── 
+│   │   ├── pagename
+|   |   |   ├── pagename_controller.dart  
+|   |   |   ├── pagename_page.dart            
+│   └──   
+└── ...
+```
+
+## Outputs for page type cubit 📦
+
+```
+--project
+|   ├── lib
+│   │   ├── pagename
+|   |   |   ├── pagename_cubit.dart  
+|   |   |   ├── pagename_page.dart            
+│   └──   
+└── ...
+```
+
+## Outputs for page type mobx 📦
+
+```
+--project
+|   ├── lib
+│   │   ├── pagename
+|   |   |   ├── pagename_page.dart  
+|   |   |   ├── pagename_store.dart            
+│   └──   
+└── ...
+```
+
+## Outputs for page type triple 📦
+
+```
+--project
+|   ├── lib
+│   │   ├── pagename
+|   |   |   ├── pagename_page.dart  
+|   |   |   ├── pagename_store.dart            
 │   └──   
 └── ...
 ```
