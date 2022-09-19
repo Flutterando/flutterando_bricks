@@ -1,4 +1,4 @@
-name: module
+name: module_brick
 description: A new brick created with the Mason CLI to create flutter modular modules easy.
 
 # The following defines the version and build number for your brick.
@@ -22,3 +22,4 @@ environment:
 #  * a list of values (enums only)
 vars:
   - name
+  - isClean

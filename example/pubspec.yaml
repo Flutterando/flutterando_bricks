@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_modular: ^5.0.3
   flutter_triple: ^1.2.8-dev.1
+  dartz:
+  dio:
 
 dev_dependencies:
   flutter_test:
