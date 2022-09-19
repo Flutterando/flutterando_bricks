@@ -23,9 +23,9 @@ mason make rxnotifier_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── rxnotifiername
-│   │   │   │       ├── presentation
-|   |   |   |           ├── rxnotifiername
-|   |   |   |               ├── rxnotifiername_controller.dart
+│   │   │   │   |   ├── presentation
+|   |   |   |   |   |   ├── rxnotifiername
+|   |   |   |   |   |   |   ├── rxnotifiername_controller.dart
 │   │   └── 
 │   └──   
 └── ...

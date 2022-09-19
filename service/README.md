@@ -23,7 +23,7 @@ mason make service_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── servicename
-│   │   │   │       ├── servicename_service.dart
+│   │   │   │   |   ├── servicename_service.dart
 │   │   └── 
 │   └──   
 └── ...

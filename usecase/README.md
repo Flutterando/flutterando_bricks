@@ -24,9 +24,9 @@ mason make usecase_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── usecasename
-│   │   │   │       ├── domain
-|   |   |   |           ├── usecases
-|   |   |   |               ├── usecasename_usecase.dart
+│   │   │   │   |   ├── domain
+|   |   |   |   |   |   ├── usecases
+|   |   |   |   |   |   |   ├── usecasename_usecase.dart
 │   │   └── 
 │   └──   
 └── ...

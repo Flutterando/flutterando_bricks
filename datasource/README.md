@@ -23,10 +23,10 @@ mason make datasource_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── datasourcename
-│   │   │   │       ├── external
-|   |   |   |           ├── datasourcename_datasource.dart
-|   |   |   |       ├── infra
-|   |   |   |           ├── datasourcename_datasource.dart
+│   │   │   │   |   ├── external
+|   |   |   |   |   |   ├── datasourcename_datasource.dart
+|   |   |   |   |   ├── infra
+|   |   |   |   |   |   ├── datasourcename_datasource.dart
 │   │   └── 
 │   └──   
 └── ...

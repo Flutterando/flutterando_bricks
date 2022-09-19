@@ -24,12 +24,12 @@ mason make repository_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── repositoryname
-│   │   │   │       ├── domain
-|   |   |   |           ├── repositories
-|   |   |   |               ├── repositoryname_repository.dart
-|   |   |   |       ├── infra
-|   |   |   |           ├── repositories
-|   |   |   |               ├── repositoryname_repository_impl.dart        
+│   │   │   │   |   ├── domain
+|   |   |   |   |   |   ├── repositories
+|   |   |   |   |   |   |  ├── repositoryname_repository.dart
+|   |   |   |   |   ├── infra
+|   |   |   |   |   |   ├── repositories
+|   |   |   |   |   |   |   ├── repositoryname_repository_impl.dart        
 │   │   └── 
 │   └──   
 └── ...
