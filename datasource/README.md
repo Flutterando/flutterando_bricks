@@ -12,7 +12,8 @@ mason make datasource_brick
 
 | Variable       | Description             | Default | Type     |
 | -------------- | ----------------------- | ------- | -------- |
-| `datasourcename` | The name of the datasource | app     | `string` |
+| `datasourcename` | The name of the datasource | lib     | `string` |
+| `methodname` | The name of the datasource method | lib | `string`
 
 ## Outputs 📦
 
