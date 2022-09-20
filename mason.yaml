@@ -1,0 +1,19 @@
+bricks:
+  widget_brick:
+    path: ./widget
+  usecase_brick:
+    path: ./usecase
+  service_brick:
+    path: ./service
+  rxnotifier_brick:
+    path: ./rxNotifier
+  repository_brick:
+    path: ./repository
+  page_brick:
+    path: ./page
+  datasource_brick:
+    path: ./datasource
+  module_brick:
+    path: ./module
+
+    
