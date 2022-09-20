@@ -40,7 +40,7 @@ mason make module_brick
 |   |   |   |   |   |   |   ├── name_datasource.dart
 |   |   |   |   |   |   ├── repositories
 |   |   |   |   |   |   |   ├── name_repository_impl.dart
-|   |   |   |   |   ├── views
+|   |   |   |   |   ├── presenter
 |   |   |   |   |   |   ├── pages
 |   |   |   |   |   |   |   ├── name_page.dart
 |   |   |   |   |   |   |   ├── name_store.dart
@@ -58,7 +58,7 @@ mason make module_brick
 │   │   ├── app
 │   │   │   ├── modules
 │   │   │   │   ├── name
-|   |   |   |   |   ├── views
+|   |   |   |   |   ├── presenter
 |   |   |   |   |   |   ├── pages
 |   |   |   |   |   |   |   ├── name_page.dart
 |   |   |   |   |   |   |   ├── name_store.dart
