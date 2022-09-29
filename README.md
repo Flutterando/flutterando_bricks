@@ -1,6 +1,6 @@
 # Flutterando Bricks
 
-A list of bricks to facilitate to structure your project!
+A list of bricks to facilitate the structure your project!
 
 
 ## bicks ✨
