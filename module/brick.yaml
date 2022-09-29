@@ -1,5 +1,6 @@
 name: module_brick
-description: A new brick created with the Mason CLI to create flutter modular modules easy.
+description: A brick to create a module structure for your project!
+repository: https://github.com/Flutterando/flutterando_bricks/tree/master/module
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
