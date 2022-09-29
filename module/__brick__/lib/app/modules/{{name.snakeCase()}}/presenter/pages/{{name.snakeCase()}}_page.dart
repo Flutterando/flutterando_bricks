@@ -21,7 +21,7 @@ var store = Modular.get<{{#pascalCase}}{{name}}{{/pascalCase}}Store>();
     return Scaffold(
       appBar: AppBar(title: const Text('{{#pascalCase}}{{name}} page {{/pascalCase}}')),
       body:  Center(
-        child: ScopedBuilder<{{#pascalCase}}{{name}}{{/pascalCase}}Store, Exception, int>(
+        child: ScopedBuilder<{{#pascalCase}}{{name}}{{/pascalCase}}Store, Exception, List<{{#pascalCase}}{{name}}{{/pascalCase}}>>(
           store: store,
           onLoading: (context) => const CircularProgressIndicator(),
           onError: (context, error) => Text(error.toString()),
