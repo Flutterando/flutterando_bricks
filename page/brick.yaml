@@ -1,5 +1,7 @@
 name: page_brick
-description: A new brick created with the Mason CLI.
+description: A brick to create a page structure for your project, depending of the type you want.
+repository: https://github.com/Flutterando/flutterando_bricks/tree/master/page
+
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
