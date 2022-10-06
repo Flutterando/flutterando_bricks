@@ -3,7 +3,7 @@
 A list of bricks to facilitate the structure your project!
 
 
-## bicks ✨
+## bricks ✨
 
 | Variable       | Description             | 
 | -------------- | ----------------------- | 
