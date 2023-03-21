@@ -39,7 +39,7 @@ dependencies:
   flutter_modular: ^5.0.3
   flutter_triple: ^1.2.8-dev.1
   dartz:
-  dio:
+  dio: ^5.0.3
 
 dev_dependencies:
   flutter_test:
